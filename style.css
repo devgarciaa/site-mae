@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #ffe6e6;
+}
+
+/* SEÇÕES */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* INICIO */
+.inicio {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio h1 {
+  color: #ff4d6d;
+  font-size: 40px;
+}
+
+/* BOTÃO */
+button {
+  padding: 12px 20px;
+  border: none;
+  background: #ff4d6d;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #e6004c;
+}
+
+/* TIMELINE */
+.timeline .bloco {
+  margin: 40px 0;
+}
+
+.timeline img {
+  width: 250px;
+  border-radius: 12px;
+}
+
+/* CARTA */
+.carta {
+  background: #fff0f5;
+}
+
+/* SURPRESA */
+.surpresa {
+  padding-bottom: 80px;
+}
