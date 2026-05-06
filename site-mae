@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Para minha mãe ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- TELA INICIAL -->
+  <section class="inicio" id="inicio">
+    <h1>Feliz Dia das Mães ❤️</h1>
+    <p>Esse site é pequeno perto de tudo que você já fez por mim...</p>
+    <button onclick="entrar()">Clique aqui, mãe ❤️</button>
+  </section>
+
+  <!-- CONTEÚDO (ESCONDIDO) -->
+  <div id="site" style="display: none;">
+
+    <!-- FOTOS -->
+    <section class="timeline">
+      <h2>Um pouco da gente! ❤️</h2>
+
+      <div class="bloco"><img src="img/foto1.jpg"><p>Você é muito importante para mim!</p></div>
+      <div class="bloco"><img src="img/foto2.jpg"><p>Sem você, a nossa familia não seria nada. A senhora é o pilar disso tudo</p></div>
+      <div class="bloco"><img src="img/foto3.jpg"><p>A senhora sempre foi e sempre será a minha melhor companhia.</p></div>
+      <div class="bloco"><img src="img/foto4.png"><p>Você sempre foi a minha maior inspiração, vou levar para sempre tudo o que a senhora me ensinou.</p></div>
+      <div class="bloco"><img src="img/foto5.jpg"><p>Onde ela estiver, eu tenho certeza que ela está orgulhosa da pessoa sensacional que você se tornou, a senhora é uma mãe mais que perfeita.</p></div>
+      <div class="bloco"><img src="img/foto6.jpg"><p>Linda desde sempre, parece cada dia mais jovem</p></div>
+      <div class="bloco"><img src="img/foto7.jpg"><p>Esse sorriso sempre vai ficar marcado comigo</p></div>
+      <div class="bloco"><img src="img/foto8.jpg"><p>Mesmo quando não tinha condições, fazia o que podia para ver todos ao seu lado sorrindo</p></div>
+      <div class="bloco"><img src="img/foto9.png"><p>A senhora é tudo para mim, obrigado por cuidar de todos nós!!!</p></div>
+    </section>
+
+    <!-- CARTA FINAL -->
+    <section class="carta">
+      <h2>Pra você, mãe 💌</h2>
+      <p>
+        Mãe, eu fiz esse site simples, mas com todo o meu coração.
+        Claro que nada aqui mostra o tamanho do meu amor por você, mas espero chegar perto.<br><br>
+
+        Em todo momento da minha vida a senhora esteve comigo.
+        Sempre ficou ao meu lado e fez o seu melhor e ainda continua fazendo.<br><br>
+
+        Hoje eu vejo o quanto tudo isso fez e faz diferença.
+        Eu sou muito grato por ter você como mãe.<br><br>
+
+        Eu te amo mais do que consigo explicar.
+        Obrigado por tudo até aqui, feliz dia das mães! ❤️
+        ps: Nós não seriamos nada sem a senhora.
+      </p>
+    </section>
+
+  </div>
+
+  <script>
+    function entrar() {
+      document.getElementById("inicio").style.display = "none";
+      document.getElementById("site").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #ffe6e6;
+}
+
+/* SEÇÕES */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* INICIO */
+.inicio {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio h1 {
+  color: #ff4d6d;
+  font-size: 40px;
+}
+
+/* BOTÃO */
+button {
+  padding: 12px 20px;
+  border: none;
+  background: #ff4d6d;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #e6004c;
+}
+
+/* TIMELINE */
+.timeline .bloco {
+  margin: 40px 0;
+}
+
+.timeline img {
+  width: 250px;
+  border-radius: 12px;
+}
+
+/* CARTA */
+.carta {
+  background: #fff0f5;
+}
+
+/* SURPRESA */
+.surpresa {
+  padding-bottom: 80px;
+}
